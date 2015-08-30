@@ -1,0 +1,3 @@
+#!/bin/sh
+export LD_PRELOAD=/opt/sublime_text/libsublime-imfix.so:$LD_PRELOAD
+exec /opt/sublime_text/sublime_text "$@"
